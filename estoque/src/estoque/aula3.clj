@@ -30,3 +30,16 @@
 
 (println (valor-descontado 101))
 (println (valor-descontado 100))
+
+(defn valor-descontado1
+  "Retorna valor descontado, dependendo do valor bruto"
+  [aplica-desconto? valor-bruto]
+  (if (aplica-desconto? valor-bruto)
+    (let [taxa-de-desconto (/ 10 100)
+          desconto (* valor-bruto taxa-de-desconto)]
+      (- valor-bruto desconto))
+    valor-bruto))
+
+(println (valor-descontado1 aplica-desconto2? 101))
+(println (valor-descontado1 (fn [valor-bruto] (> valor-bruto 100)) 100))
+(println (valor-descontado1 #(> %1 100) 101))
