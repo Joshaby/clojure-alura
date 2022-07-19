@@ -1,4 +1,4 @@
-(ns estoque.aula3)
+(ns estoque_curso1.aula3)
 
 ; Predicate
 (defn aplica-desconto?

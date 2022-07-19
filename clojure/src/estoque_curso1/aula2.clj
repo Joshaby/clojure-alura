@@ -1,4 +1,4 @@
-(ns estoque.aula2)
+(ns estoque_curso1.aula2)
 
 (defn imprime-mensagem []
   (println "Bem-vindo ao estoque!"))

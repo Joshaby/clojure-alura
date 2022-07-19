@@ -1,0 +1,1 @@
+(ns loja-curso2.core)

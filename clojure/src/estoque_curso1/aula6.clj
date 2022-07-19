@@ -1,4 +1,4 @@
-(ns estoque.aula6)
+(ns estoque_curso1.aula6)
 
 (def pedido {:mochila {:quantidade 2 :preco 80}
              :camiseta {:quantidade 3 :preco 40}})

@@ -1,4 +1,4 @@
-(ns estoque.aula4)
+(ns estoque_curso1.aula4)
 
 (def precos [30 700 1000])
 
