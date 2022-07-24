@@ -21,3 +21,13 @@
 (println (conta1 0 []))
 (println (conta1 vetor))
 (println (conta1 []))
+
+(defn conta2
+  [elementos]
+  (loop [total-ate-agora 0
+         elementos-restantes elementos]
+    (if (seq elementos-restantes)
+      (recur (inc total-ate-agora) (next elementos-restantes))
+      total-ate-agora)))
+
+(println (conta2 vetor))
