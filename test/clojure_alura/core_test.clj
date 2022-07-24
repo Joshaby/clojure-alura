@@ -1,6 +1,6 @@
-(ns estoque.core-test
+(ns clojure-alura.core-test
   (:require [clojure.test :refer :all]
-            [estoque.core :refer :all]))
+            [clojure-alura.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

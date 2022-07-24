@@ -1,1 +1,1 @@
-(ns loja-curso2.core)
+(ns loja_curso2.core)

@@ -1,4 +1,4 @@
-# estoque_curso1
+# clojure-alura
 
 A Clojure library designed to ... well, that part is up to you.
 

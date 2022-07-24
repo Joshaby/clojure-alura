@@ -1,4 +1,4 @@
-(ns loja-curso2.aula1)
+(ns loja_curso2.aula1)
 
 (def vetor ["daniela" "guilherme" "carlos" "paulo"])
 

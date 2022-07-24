@@ -1,3 +1,3 @@
-# Introduction to estoque_curso1
+# Introduction to clojure-alura
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
